@@ -1,3 +1,68 @@
 body {
-	background: $color__background-body; // Fallback for when there is no custom background color defined.
+	background-color: #D4D4D4;
+	// Fallback for when there is no custom background color defined.
 }
+
+
+/********* MAIN PAGE *****/
+.section {
+	padding: 90px 0px;
+}
+
+
+.section .section-title {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 41px;
+	letter-spacing: -0.5px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+	color: #001661;
+	margin-top: 18px;
+}
+
+.section .section-title.section-title_white {
+	color: #ffffff;
+}
+
+.section .section-label {
+	
+background: #10CE34;
+
+
+-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+
+width: fit-content;
+padding: 5px 28px;
+margin: 0 auto;
+
+}
+
+.section .section-label span {
+	color: #FFFFFF;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+letter-spacing: 0.45em;
+text-transform: uppercase;
+	// -webkit-transform: skew(25deg);
+	//    -moz-transform: skew(25deg);
+	//      -o-transform: skew(25deg);
+}
+
+
+
+
+
+
+/********* ./MAIN PAGE *****/

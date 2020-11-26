@@ -15,7 +15,144 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<section class="section main-page__new-vehicles">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+						<span>
+						эксклюзивно
+						</span>
+					
+					</div>
+					<div class="section-title section-title_white">
+					ЗАГОЛОВОК АКЦИИ
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section main-page__new-vehicles">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+						<span>
+						новинки
+						</span>
+					
+					</div>
+					<div class="section-title section-title_white">
+					новые поступления
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section main-page__vehicles">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+					<span>
+					популярное
+					</span>
+					
+					</div>
+					<div class="section-title">
+					СТАНКИ МАРКИ m
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section main-page__about">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+					<span>
+					FISHIAN
+					</span>
+					
+					</div>
+					<div class="section-title">
+					О нас
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="section main-page__blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+					<span>
+					блог
+					</span>
+					
+					</div>
+					<div class="section-title">
+					Новости
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="section main-page__dealers">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+					<span>
+					МАГАЗИНЫ
+					</span>
+					
+					</div>
+					<div class="section-title section-title_white">
+					Наши представители
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section main-page__form">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-label">
+						<span>
+						ЗАЯВКА
+						</span>
+					
+					</div>
+					<div class="section-title">
+					ОСТАЛИСЬ ВОПРОСЫ?
+					</div>
+				</div>
+				<div class="col-12"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <main id="primary" class="site-main">
 
 		<?php
 		if ( have_posts() ) :
@@ -50,8 +187,9 @@ get_header();
 		endif;
 		?>
 
-	</main><!-- #main -->
+	</main> -->
+	<!-- #main -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
