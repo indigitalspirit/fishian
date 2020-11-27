@@ -462,6 +462,135 @@ big {
 
 /* Elements
 --------------------------------------------- */
+.header__top-bar {
+  background-color: #001661;
+  padding: 15px 0px;
+}
+
+.header__top-bar-left span.text, .header__top-bar-left a, .header__top-bar-right span.text, .header__top-bar-right a {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  margin-left: 5px;
+}
+
+.header__top-bar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__top-bar-left .phone, .header__top-bar-left .email, .header__top-bar-left .shedule {
+  margin-right: 40px;
+}
+
+.header__top-bar-right {
+  text-align: right;
+}
+
+.header__top-bar-right .socials .icon {
+  margin-left: 15px;
+}
+
+.header__top-bar-right .socials .icon:last-child() {
+  margin-left: 15px;
+}
+
+.header__menu-bar .navbar {
+  padding: 20px 0px;
+}
+
+.header__menu-bar .navbar ul {
+  list-style: none;
+  margin: 0;
+}
+
+.header__menu-bar .navbar ul li a {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+.header__menu-bar .navbar .navbar-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu-bar .navbar .navbar-icons .icon {
+  margin-left: 20px;
+}
+
+.header__menu-bar .navbar .navbar-icons .icon:last-child() {
+  margin-left: 20px;
+}
+
+.header__title-bar {
+  background-color: #d4d4d4;
+  height: 350px;
+  position: relative;
+  padding: 100px 15px 150px 15px;
+  text-align: center;
+}
+
+.header__title-bar .main-title {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.header__title-bar .breadcrumbs {
+  margin-top: 5px;
+}
+
+.header__title-bar .breadcrumbs a {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
 body {
   background-color: #D4D4D4;
 }

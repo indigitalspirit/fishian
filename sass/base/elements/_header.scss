@@ -1,0 +1,155 @@
+.header {
+
+  &__top-bar {
+    background-color: #001661;
+    padding: 15px 0px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: center;
+
+
+
+
+    &-left, &-right {
+
+      span.text, a {
+        color: #ffffff;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+        letter-spacing: 0.05em;
+
+        margin-left: 5px;
+      }
+    }
+
+    &-left {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      .phone, .email, .shedule {
+        margin-right: 40px;
+      }
+
+    }
+
+    &-right {
+      text-align: right;
+
+      .socials {
+        .icon {
+          margin-left: 15px;
+        }
+        .icon:last-child() {
+          margin-left: 15px;
+        }
+
+      }
+      
+    }
+
+    
+  }
+
+  &__menu-bar {
+    .navbar {
+      padding: 20px 0px;
+
+      ul {
+        list-style: none;
+        margin: 0;
+  
+        li {
+  
+          a {
+            font-family: Roboto;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+  
+            text-transform: uppercase;
+  
+  
+          }
+        }
+      }
+
+      .navbar-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        .icon {
+          margin-left: 20px;
+        }
+        .icon:last-child() {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  &__title-bar {
+    background-color: #d4d4d4;
+    height: 350px;
+    position: relative;
+    padding: 100px 15px 150px 15px;
+    text-align: center;
+
+
+    .main-title {
+      font-family: 'Roboto';
+      font-style: italic;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 47px;
+      /* identical to box height */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+
+      margin: 0;
+
+      // position: absolute;
+      // top: 50%;
+      // left: 
+
+    }
+
+    .breadcrumbs {
+      margin-top: 5px;
+
+      a {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+      }
+    }
+
+  }
+
+  
+
+
+}
+
+  
